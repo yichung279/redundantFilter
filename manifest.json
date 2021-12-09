@@ -1,0 +1,11 @@
+{
+  "name": "consoleHightLighter",
+  "version": "1.0.0",
+  "description": "放大你的 console.log",
+  "manifest_version": 3,
+
+  "content_scripts": [{
+    "matches": ["https://bitbucket.deepq.app/*"],
+    "js": ["script/content.js"]
+  }]
+}
